@@ -1,12 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+//Module
+import { RoutingModule } from './routing.module';
+
+//Page 
+import { HomeComponent } from './home/home.component';
+import { DetailsComponent } from './details/details.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    HomeComponent,
+    DetailsComponent
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    RoutingModule
   ]
 })
 export class PagesModule { }
