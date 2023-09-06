@@ -15,4 +15,4 @@ Programa realizado com demais linguagens
    - Api pokeapi
 * HTML
 * SCSS
-*Typescript
+* Typescript
